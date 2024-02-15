@@ -40,7 +40,40 @@
   margin-left: 10px;
 }
 
+/* middle section starts from here */
 .middle-section{
+  width: 50%;
+  background-color: burlywood;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* right section starts from here */
+.right-section{
+  width: 25%;
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-section>div{
+  background-color: #D8DADF;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.right-section>div>img{
+  
+}
+
+.right-section .profile-picture{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
