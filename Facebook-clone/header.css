@@ -1,0 +1,46 @@
+.header{
+  height: 60px;
+  display: flex;
+  border-bottom: 2px solid #F0F2F5;
+  box-shadow: 0px 1px 10px #d3d5d8;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+  width: 25%;
+  background-color: powderblue;
+}
+
+.logo{
+  margin-left: 15px;
+}
+.logo>img{
+  height: 40px;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  background-color: #F0F2F5;
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin-left: 10px;
+  width: 240px;
+}
+
+.search-bar>img{
+  height: 25px;
+}
+
+.search-bar>input{
+  height: 30px;
+  border: none;
+  background-color: #F0F2F5;
+  margin-left: 10px;
+}
+
+.middle-section{
+  display: flex;
+}
+
