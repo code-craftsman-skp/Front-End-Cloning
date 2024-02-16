@@ -48,7 +48,7 @@
   align-items: center;
 }
 
-.middle-section .container{
+.middle-section-container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,51 +59,60 @@
   cursor: pointer;
 }
 
-.middle-section .container:hover{
+.middle-section-container:hover{
   background-color: #F2F2F2;
 }
 
+/* The tooltip for both middle-section and right-section  */
 .tooltip{
   color: #F0F2F5;
   background-color: #39393A;
   padding: 8px 10px;
   border-radius: 8px;
   position: absolute;
-  bottom: -47px;
+  bottom: -43px;
   opacity: 0;
   transition: opacity 0.3s;
   pointer-events: none;
+  font-size: 12px;
 }
 
-.middle-section .container:hover .tooltip{
+.middle-section-container:hover .tooltip,
+.right-section-container:hover .tooltip{
   opacity: 1;
 }
+
 
 /* right section starts from here */
 .right-section{
   width: 25%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.right-section>div{
+.right-section-container{
   background-color: #D8DADF;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
 
-.right-section>div>img{
+.right-section-container>img{
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: 20%;
+  left: 20%;
 }
 
-.right-section .profile-picture{
+.right-section-container .profile-picture{
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -114,6 +123,23 @@
 }
 
 .right-section .account-icon{
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+.right-section-container:hover{
+  background-color: #b6bac2;
+}
+
+.message-count, 
+.notification-count{
+  background-color: red;
+  color: white;
+  padding: 4px 7px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  left: 26px;
+  top: -6px;
 }
 
