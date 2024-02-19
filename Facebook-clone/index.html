@@ -4,28 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>facebook.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./header.css">
   <link rel="stylesheet" href="./general.css">
+  <link rel="stylesheet" href="./sidebar.css">
 </head>
 <body>
   <div class="header">
+
+    <!--Left section starts from here-->
     <div class="left-section">
       <div class="logo">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/900px-Facebook_Logo_2023.png" alt="Facebook logo">
       </div>
       <div class="search-bar">
-        <img src="./icons/Search icon.png" alt="Search icon">
+        <img class="search-icon" src="./icons/Search icon.png" alt="Search icon">
         <input type="text" placeholder="Search Facebook">
       </div>
     </div>
 
-<!--Middle section starts from here-->
+
+
+    <!--Middle section starts from here-->
     <div class="middle-section">
       <div class="middle-section-container">
         <img src="./icons/Home.png" alt="Home icon">
         <div class="tooltip">Home</div>
       </div>
-
       <div class="middle-section-container">
         <img src="./icons/Video.png" alt="Videos icon">
         <div class="tooltip">Video</div>
@@ -46,7 +53,7 @@
 
 
 
-<!--Right section starts from here-->
+    <!--Right section starts from here-->
     <div class="right-section">
       <div class="right-section-container">
         <img src="./icons/menu.png" alt="Menu icon">
@@ -67,6 +74,138 @@
         <div class="tooltip">Account</div>
       </div>
     </div>
+  </div>
+
+
+  <!--Sidebar starts from here-->
+  <!--Left-sidebar-->
+  <div class="left-sidebar">
+    <div class="first-part">
+      <div class="container">
+        <div class="image">
+          <img src="./icons/profile.jpg" alt="Profile picture">
+        </div>
+        <div class="paragraph">
+          <p>Sumit Kumar Pradhan</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="./icons/friend.png" alt="Friends icon">
+        </div>
+        <div class="paragraph">
+          <p>Friends</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="./icons/memories.png" alt="Memories icon">
+        </div>
+        <div class="paragraph">
+          <p>Memories</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="./icons/saved.png" alt="Saved icon">
+        </div>
+        <div class="paragraph">
+          <p>Saved</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="./icons/groups_1.png" alt="Groups icon">
+        </div>
+        <div class="paragraph">
+          <p>Groups</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="./icons/videos.png" alt="Video icon">
+        </div>
+        <div class="paragraph">
+          <p>Video</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="see-more">
+          <img src="./icons/see more.png" alt="See more icon">
+        </div>
+        <div class="paragraph">
+          <p>See more</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Horizontal ruler -->
+    <hr>
+
+    <!-- Second part of the left-sidebar -->
+    <div class="second-part">
+      <div class="edit">
+        <div>
+          <p class="shortcut">Your shortcuts</p>
+        </div>
+        <div>
+          <p class="text">Edit</p>
+        </div>
+      </div>
+      <div class="container-2">
+        <div class="image">
+          <img src="./icons/Candy Crush Saga.png" alt="">
+        </div>
+        <div class="paragraph">
+          <p>Candy Crush Saga</p>
+        </div>    
+      </div>
+      <div class="container-2">
+        <div class="image">
+          <img src="./icons/Candy Crush Soda Saga.jpeg" alt="">
+        </div>
+        <div class="paragraph">
+          <p>Candy Crush Soda Saga</p>
+        </div>    
+      </div>
+      <div class="container-2">
+        <div class="image">
+          <img src="./icons/Candy Crush Jelly Saga.png" alt="">
+        </div>
+        <div class="paragraph">
+          <p>Candy Crush Jelly Saga</p>
+        </div>    
+      </div>
+      <div class="container-2">
+        <div class="image">
+          <img src="./icons/Pet Rescue Saga.jpeg" alt="">
+        </div>
+        <div class="paragraph">
+          <p>Pet Rescue Saga</p>
+        </div>    
+      </div>
+      <div class="container-2">
+        <div class="see-more">
+          <img src="./icons/see more.png" alt="See more icon">
+        </div>
+        <div class="paragraph">
+          <p>See more</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="more-links">
+      <a href="">Privacy</a>      <span>&middot;</span>
+      <a href="">Terms</a>        <span>&middot;</span>
+      <a href="">Advertising</a>  <span>&middot;</span>
+      <a href="">Ad choices</a>   <span>&middot;</span>
+      <a href="">Cookies</a>      <span>&middot;</span> <br>
+      <a class="except" href="">More</a>         <span>&middot;</span>
+      <span>Meta © 2024</span>
+    </div>
+
   </div>
 </body>
 </html>

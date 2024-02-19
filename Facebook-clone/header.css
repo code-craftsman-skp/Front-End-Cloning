@@ -3,6 +3,10 @@
   display: flex;
   border-bottom: 1px solid #F0F2F5;
   box-shadow: 0px 1px 10px #d3d5d8;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
 .left-section{
@@ -14,6 +18,7 @@
 
 .logo{
   margin-left: 15px;
+  cursor: pointer;
 }
 .logo>img{
   height: 40px;
@@ -23,7 +28,7 @@
   display: flex;
   align-items: center;
   background-color: #F0F2F5;
-  padding: 5px 10px;
+  padding: 8px 10px;
   border-radius: 25px;
   margin-left: 10px;
   width: 240px;
@@ -34,10 +39,17 @@
 }
 
 .search-bar>input{
-  height: 30px;
   border: none;
   background-color: #F0F2F5;
   margin-left: 10px;
+}
+
+/* .search-bar:focus .search-icon{
+  display: none;
+} */
+
+input:focus{
+  outline: none;
 }
 
 /* middle section starts from here */
@@ -86,7 +98,6 @@
 /* right section starts from here */
 .right-section{
   width: 25%;
-  /* background-color: red; */
   display: flex;
   justify-content: flex-end;
   align-items: center;

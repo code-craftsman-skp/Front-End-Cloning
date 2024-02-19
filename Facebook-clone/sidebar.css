@@ -1,0 +1,122 @@
+.left-sidebar{
+  background-color: #F0F2F5;
+  width: 25%;
+  position: fixed;
+  top: 62px;
+  left: 0;
+  bottom: 0;
+  padding: 15px 6px;
+  height: auto;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #F0F2F5 #F0F2F5;
+}
+
+.left-sidebar:hover{
+  scrollbar-color: #D8DADF #F0F2F5;
+}
+
+.left-sidebar .container,
+.left-sidebar .container-2{
+  display: flex;
+  align-items: center;
+  height: 45px;
+  border-radius: 10px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+.left-sidebar .container:hover,
+.left-sidebar .container-2:hover{
+  background-color: #E4E6E9;
+}
+
+.left-sidebar .container img,
+.left-sidebar .container-2 img{
+  height: 38px;
+  width: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* .left-sidebar .container p{
+  font-weight: 100;
+} */
+
+.left-sidebar .container .image,
+.left-sidebar .container-2 .image{
+  margin-right: 12px;
+}
+
+.left-sidebar .container .see-more,
+.left-sidebar .container-2 .see-more{
+  background-color: #D8DADF;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 12px;
+  position: relative;
+}
+
+.left-sidebar .container .see-more img,
+.left-sidebar .container-2 .see-more img{
+  position: absolute;
+  top: 2px;
+  left: -1px;
+}
+
+hr {  
+  margin: 5px 10px 0 10px;
+  height: 1px;  
+  background-color: #d0d1d5;  
+  border: none;  
+}
+
+.left-sidebar .edit{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.left-sidebar .text{
+  color: #116AC9;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.left-sidebar .text:hover{
+  background-color: #D8DADF;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+
+.left-sidebar .second-part:hover .text{
+  opacity: 1;
+}
+
+.left-sidebar .shortcut:hover{
+  cursor:text;
+}
+
+.more-links{
+  padding: 15px 20px 0 10px;
+}
+.more-links>a{
+  color: #65676B;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.more-links>a:hover{
+  text-decoration: underline;
+}
+
+.more-links .except:hover{
+  text-decoration: none;
+}
+
+.more-links>span{
+  color: #65676B;
+  font-size: 12px;
+}
