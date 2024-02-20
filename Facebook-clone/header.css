@@ -66,7 +66,7 @@ input:focus{
   justify-content: center;
   position: relative;
   padding: 8px 48px;
-  transition: background-color 0.3s;
+  transition: background-color 0.2s;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -143,11 +143,11 @@ input:focus{
 
 .message-count, 
 .notification-count{
-  background-color: red;
+  background-color: rgb(214, 13, 13);
   color: white;
-  padding: 4px 7px;
+  padding: 2px 6px;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   position: absolute;
   left: 26px;

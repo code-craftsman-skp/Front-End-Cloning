@@ -6,7 +6,6 @@
   left: 0;
   bottom: 0;
   padding: 15px 6px;
-  height: auto;
   overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: #F0F2F5 #F0F2F5;
@@ -24,6 +23,8 @@
   border-radius: 10px;
   padding: 3px 8px;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .left-sidebar .container:hover,
@@ -38,10 +39,6 @@
   object-fit: cover;
   border-radius: 50%;
 }
-
-/* .left-sidebar .container p{
-  font-weight: 100;
-} */
 
 .left-sidebar .container .image,
 .left-sidebar .container-2 .image{
@@ -120,3 +117,161 @@ hr {
   color: #65676B;
   font-size: 12px;
 }
+
+
+/* Design of the right-sidebar starts here  */
+/* First-part  */
+.right-sidebar{
+  background-color: #F0F2F5;
+  width: 25%;
+  position: fixed;
+  top: 62px;
+  right: 0;
+  bottom: 0;
+  padding: 15px 6px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #F0F2F5 #F0F2F5;
+  z-index: -100;
+}
+
+.right-sidebar .first-part .sponsor{
+  color: #68696b;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.right-sidebar .first-part .advertise{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.right-sidebar .first-part .advertise:hover{
+  background-color: #E4E6E9;
+  cursor: pointer;
+}
+
+.right-sidebar .first-part .sponsor-image img{
+  height: 80px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  float: left;
+}
+
+.sponsor-image{
+  margin-right: 12px;
+}
+
+.right-sidebar .heading p{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.right-sidebar .secondary-container a{
+  text-decoration: none;
+  color: #65676B;
+  font-size: 12px;
+}
+
+.right-sidebar .first-part .advertise .menu img{
+  height: 23px;
+  width: 23px;
+  margin: 8px 0 0 8px;
+}
+
+.right-sidebar .first-part .advertise .menu{
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #D8DADF;
+  opacity: 0;
+}
+
+.right-sidebar .first-part .advertise:hover .menu{
+  opacity: 1;
+}
+
+
+/* Second-part  */
+.right-sidebar .second-part .primary-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  padding-right: 0;
+  padding-bottom: 5px;
+}
+
+.right-sidebar .second-part .primary-container .contacts{
+  color: #68696b;
+  font-weight: 500;
+}
+
+.right-sidebar .second-part .primary-container .search-option{
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-sidebar .second-part .primary-container .search-option>div{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.right-sidebar .second-part .primary-container .search-option>div:hover{
+  background-color: #e4e6ed;
+}
+
+.right-sidebar .second-part .primary-container .search-option img{
+  height: 23px;
+  width: 23px;
+  margin: 6px 0 0 6px;
+}
+
+.right-sidebar .second-part .container{
+  display: flex;
+  align-items: center;
+  height: 45px;
+  border-radius: 10px;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: red;
+}
+
+.right-sidebar .second-part .container .profile-picture{
+  height: 38px;
+  width: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.right-sidebar .second-part .container .green-dot>img{
+  height: 9px;
+  width: 9px;
+  object-fit: contain;
+}
+
+.right-sidebar .second-part .container .active-now{
+  position: relative;
+  margin-right: 12px;
+}
+
+.right-sidebar .second-part .container .active-now .green-dot{
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+}
+
