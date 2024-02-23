@@ -77,7 +77,8 @@ input:focus{
 }
 
 /* The tooltip for both middle-section and right-section  */
-.tooltip{
+.middle-section-container .tooltip,
+.right-section-container .tooltip{
   color: #F0F2F5;
   background-color: #39393A;
   padding: 8px 10px;

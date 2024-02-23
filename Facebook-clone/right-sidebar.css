@@ -139,6 +139,36 @@
   justify-content: space-between;
 }
 
+.right-sidebar .second-part .primary-container .search-option .search,
+.right-sidebar .second-part .primary-container .search-option .option{
+  position: relative;
+}
+
+.right-sidebar .second-part .primary-container .search-option .search .tooltip{
+  width: 183px;
+}
+
+.right-sidebar .second-part .primary-container .search-option .option .tooltip,
+.right-sidebar .second-part .primary-container .search-option .search .tooltip{
+  position: absolute;
+  bottom: -40px;
+  right: 5px;
+  background-color: #39393A;
+  color: #F0F2F5;
+  padding: 15px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.right-sidebar .second-part .primary-container .search-option .option:hover .tooltip,
+.right-sidebar .second-part .primary-container .search-option .search:hover .tooltip{
+  opacity: 0.9;
+}
+
+
 .right-sidebar .second-part .primary-container .search-option>div{
   height: 35px;
   width: 35px;
