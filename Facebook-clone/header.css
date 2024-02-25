@@ -86,7 +86,7 @@ input:focus{
   position: absolute;
   bottom: -43px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
   pointer-events: none;
   font-size: 12px;
 }
