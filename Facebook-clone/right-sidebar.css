@@ -188,7 +188,6 @@
 .right-sidebar .request-container .secondary-container .about .name{
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .right-sidebar .request-container .secondary-container .about .name .entity{
