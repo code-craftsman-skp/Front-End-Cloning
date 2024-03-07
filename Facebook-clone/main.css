@@ -1,3 +1,40 @@
+#story-section{
+  height: 200px;
+  background-color: powderblue;
+  /* background-color: #F0F2F5; */
+  /* border-radius: 8px; */
+  display: flex;
+}
+
+#story-section .container{
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+}
+
+#story-section .profile-picture{
+  height: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#story-section .text{
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  bottom: -10px;
+  left: 16px;
+}
+
+#story-section .create-story{
+  background-color: #0866FF;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+
 #main{
   background-color: burlywood;
   /* background-color: #F0F2F5; */
@@ -10,7 +47,7 @@
 }
 
 #main .section{
-  margin: 0 32px;
+  margin: 20px 32px;
 }
 
 #upload{
@@ -84,4 +121,6 @@
 #upload #feelings:hover{
   background-color: #F2F2F2;
 }
+
+
 
